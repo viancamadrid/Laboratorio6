@@ -15,7 +15,7 @@ public:
 	bool addGame(int id);
 	bool deleteGame(int id);
 	void changePassword (string password);
-	string getUsername();
+	string getUserName();
 	bool isValidPassword(string username, string password);
 	string toString()const;
 };

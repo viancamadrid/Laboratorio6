@@ -22,8 +22,8 @@ void User::changePassword(string password){
 
 }
 
-string User::getUsername(){
-
+string User::getUserName(){
+	return username;
 }
 
 bool User::isValidPassword(string username, string password){
