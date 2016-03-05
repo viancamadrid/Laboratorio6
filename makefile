@@ -11,4 +11,4 @@ game.o:	game.cpp game.h
 	g++ -c game.cpp
 
 clean:
-	rm *.o point
+	rm *.o lab6
