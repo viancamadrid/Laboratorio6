@@ -19,15 +19,15 @@ bool User::deleteGame(int id){
 }
 
 void User::changePassword(string password){
-
+	
 }
 
 string User::getUserName(){
 	return username;
 }
 
-bool User::isValidPassword(string username, string password){
-
+string User::getPassword(){
+	return password;
 }
 
 string User::toString()const{

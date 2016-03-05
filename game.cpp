@@ -19,6 +19,6 @@ int Game::getId(){
 
 string Game::toString()const{
 	stringstream ss;
-	ss<<name<<" "<<id;
+	ss<<id<<" "<<name;
 	return ss.str();
 }
