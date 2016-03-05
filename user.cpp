@@ -11,15 +11,15 @@ User::User(string username, string password){
 }
 
 bool User::addGame(int id){
-	
+	games.push_back(id);
 }
 
-bool User::deleteGame(int id){
-
+bool User::deleteGame(int id,int pos){
+	games.erase(games.begin()+pos);
 }
 
 void User::changePassword(string password){
-	
+	this-> password=password;
 }
 
 string User::getUserName(){

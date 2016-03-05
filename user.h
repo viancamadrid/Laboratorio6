@@ -13,7 +13,7 @@ class User{
 public:
 	User(string,string);
 	bool addGame(int id);
-	bool deleteGame(int id);
+	bool deleteGame(int id, int pos);
 	void changePassword (string password);
 	string getUserName();
 	string getPassword();
